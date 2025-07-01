@@ -1,0 +1,33 @@
+=== CARTA DO JOGADOR ===
+Nome: Goku
+Força: 100
+Inteligência: 60
+Influência: 70
+
+=== CARTA DO PC ===
+Nome: Vegeta
+Força: 100
+Inteligência: 70
+Influência: 70
+=== CARTA DO JOGADOR ===
+Nome: Loki
+Força: 60
+Inteligência: 80
+Influência: 60
+
+=== CARTA DO PC ===
+Nome: Jiraiya
+Força: 75
+Inteligência: 85
+Influência: 75
+=== CARTA DO JOGADOR ===
+Nome: Homem de Ferro
+Força: 70
+Inteligência: 90
+Influência: 80
+
+=== CARTA DO PC ===
+Nome: Loki
+Força: 60
+Inteligência: 80
+Influência: 60
