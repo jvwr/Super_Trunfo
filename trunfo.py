@@ -2,6 +2,7 @@ import json
 import random
 from InquirerPy import prompt
 from colorama import init, Fore, Style
+from datetime import datetime
 
 init(autoreset=True)
 
@@ -94,10 +95,17 @@ def jogo():
     print("\n=== CARTA DO PC ===")
     print(f"- Nome: {carta_2['Nome']}\n- Força: {carta_2['Força']}\n- Inteligência: {carta_2['Inteligência']}\n- Influência: {carta_2['Influência']}\n")
 
-    return carta_1, carta_2, vencedor
+    return carta_1, carta_2, vencedor, resultado
 
 
-def historico(carta_1, carta_2, vencedor):
+def comeco_hora(comeco):
+
+    with open(partida, "a", encoding="utf-8") as file:
+
+        file.write(f"O jogo começou no dia {comeco.strftime("%d/%m/%Y")} as {comeco.strftime('%H:%M:%S')} \n\n")
+
+
+def historico(carta_1, carta_2, vencedor, resultado):
 
     with open(partida, "a", encoding="utf-8") as rodadas:
 
@@ -113,11 +121,13 @@ def historico(carta_1, carta_2, vencedor):
         rodadas.write(f"Inteligência: {carta_2['Inteligência']}\n")
         rodadas.write(f"Influência: {carta_2['Influência']}\n\n")
 
+        rodadas.write(f"Atributo escolhido {resultado}\n\n")
+
         rodadas.write(f"RESULTADO DA RODADA {rodada}")
         rodadas.write(f"\n{vencedor}\n\n\n\n")
 
 
-def resultado_final():
+def resultado_final(final):
 
     global jogador
     global pc
@@ -128,12 +138,17 @@ def resultado_final():
         rodadas.write(f"PC ganhou {pc} ")
 
         if pc > jogador:
-            rodadas.write("\nPC ganhou essa partida de Super Trunfo! ")
+            rodadas.write("\nPC ganhou essa partida de Super Trunfo! \n\n\n")
         else:
-            rodadas.write("\nJogador ganhou essa partida de Super Trunfo! ")
+            rodadas.write("\nJogador ganhou essa partida de Super Trunfo! \n\n\n")
+
+        rodadas.write(f"O jogo terminou no dia {final.strftime("%d/%m/%Y")} as {final.strftime('%H:%M:%S')} ")
 
 
 def main():
+
+    comeco = datetime.now()
+    comeco_hora(comeco)
 
     while True:
 
@@ -142,8 +157,8 @@ def main():
         if resultado is False:
             continue
 
-        carta_1, carta_2, vencedor = resultado
-        historico(carta_1, carta_2, vencedor)
+        carta_1, carta_2, vencedor, resultado = resultado
+        historico(carta_1, carta_2, vencedor, resultado)
 
         global rodada
         rodada += 1
@@ -161,9 +176,11 @@ def main():
 
         if decisao == "Não":
             print("Jogatina encerada")
-            resultado_final()
+            final = datetime.now()
+            resultado_final(final)
             break
 
 
 if __name__ == "__main__":
     main()
+
