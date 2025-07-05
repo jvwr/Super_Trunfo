@@ -19,14 +19,9 @@ baralho = r"C:\Users\João Vitor\Desktop\Python\Super_Trunfo\baralho.json"
 
 partida = r"C:\Users\João Vitor\Desktop\Python\Super_Trunfo\partida.txt"
 
-print("Seja bem-vindo ao Super Trunfo!")
-print("Pegue sua carta, escolha com sabedoria... ou só confie no seu bom azar mesmo.\n")
+print("Bom dia, boa tarde, boa noite!!!\nApresento a vocês o jogo Super Trunfo.\n")
 
-print("Super Trunfo é um jogo de cartas em que cada carta possui três atributos: Força, Inteligência e Influência.")
-print("Você jogará contra o computador. A cada rodada, você recebe uma carta e escolhe um dos atributos para comparar com a carta do PC.")
-print("Quem tiver o maior valor no atributo escolhido vence a rodada.")
-print("Se uma das cartas for uma Carta Trunfo, ela vence automaticamente.")
-print("Em caso de empate, uma nova rodada de desempate é iniciada.")
+print("Super Trunfo é um jogo de cartas em que cada carta tem vários atributos. Na sua vez, o jogador escolhe um atributo da carta do topo do seu monte, e todos os jogadores comparam esse valor. Quem tiver o maior, vence a rodada e pega as cartas.")
 
 
 def sorteador():
@@ -70,21 +65,15 @@ def jogo():
         vencedor = "Jogador ganhou!"
         jogador += 1
 
-        print("\n=== CARTA DO PC ===")
-        print(f"- Nome: {carta_2['Nome']}\n- Força: {carta_2['Força']}\n- Inteligência: {carta_2['Inteligência']}\n- Influência: {carta_2['Influência']}\n")
-
-        return carta_1, carta_2, vencedor, resultado
-
     elif carta_2['Trunfo'] is True:
         print(Fore.RED + Style.BRIGHT + "PC ganhou!")
         print("Carta Trunfo")
         vencedor = "PC ganhou!"
         pc += 1
 
-        print("\n=== CARTA DO PC ===")
-        print(f"- Nome: {carta_2['Nome']}\n- Força: {carta_2['Força']}\n- Inteligência: {carta_2['Inteligência']}\n- Influência: {carta_2['Influência']}\n")
-
-        return carta_1, carta_2, vencedor, resultado
+    if resultado not in ['Força', 'Inteligência', 'Influência']:
+        print("\nValor invalido!")
+        return False
 
     if carta_1[resultado] > carta_2[resultado]:
         print(Fore.RED + Style.BRIGHT + "\nJogador ganhou!")
@@ -93,23 +82,15 @@ def jogo():
 
     elif carta_1[resultado] == carta_2[resultado]:
         print(Fore.RED + Style.BRIGHT + "\nEmpate!")
-        print("\nNova Rodada de Desempate")
-
+        print("\nNova Rodada")
         vencedor = "Empate!"
-        historico(carta_1, carta_2, vencedor, resultado)
-
-        global rodada
-        rodada += 1
-
-        carta_1, carta_2, vencedor, resultado = empate()
-        historico(carta_1, carta_2, vencedor, resultado)
-
-        rodada += 1
 
     else:
         print(Fore.RED + Style.BRIGHT + "\nPC ganhou!")
         vencedor = "PC ganhou!"
         pc += 1
+
+        print("\nCartas do PC:")
 
     print("\n=== CARTA DO PC ===")
     print(f"- Nome: {carta_2['Nome']}\n- Força: {carta_2['Força']}\n- Inteligência: {carta_2['Inteligência']}\n- Influência: {carta_2['Influência']}\n")
@@ -121,7 +102,7 @@ def comeco_hora(comeco):
 
     with open(partida, "a", encoding="utf-8") as file:
 
-        file.write(f"O jogo começou no dia {comeco.strftime('%d/%m/%Y')} as {comeco.strftime('%H:%M:%S')} \n\n")
+        file.write(f"O jogo começou no dia {comeco.strftime("%d/%m/%Y")} as {comeco.strftime('%H:%M:%S')} \n\n")
 
 
 def historico(carta_1, carta_2, vencedor, resultado):
@@ -161,72 +142,7 @@ def resultado_final(final):
         else:
             rodadas.write("\nJogador ganhou essa partida de Super Trunfo! \n\n\n")
 
-        rodadas.write(f"O jogo terminou no dia {final.strftime('%d/%m/%Y')} as {final.strftime('%H:%M:%S')} ")
-
-
-def empate():
-
-    global jogador
-    global pc
-
-    carta_1, carta_2 = sorteador()
-
-    print("\n\n=== CARTA DO JOGADOR ===")
-    print(f"- Nome: {carta_1['Nome']}\n- Força: {carta_1['Força']}\n- Inteligência: {carta_1['Inteligência']}\n- Influência: {carta_1['Influência']}\n")
-
-    comparar = [
-        {
-            "type": "list",
-            "name": "atributo",
-            "message": "Qual valor vai ser comparado: ",
-            "choices": ['Força', 'Inteligência', 'Influência']
-        }
-    ]
-
-    resultado = prompt(comparar)["atributo"]
-
-    if carta_1['Trunfo'] is True:
-        print(Fore.RED + Style.BRIGHT + "Jogador ganhou!")
-        print("Carta Trunfo")
-        vencedor = "Jogador ganhou!"
-        jogador += 2
-
-        print("\n=== CARTA DO PC ===")
-        print(f"- Nome: {carta_2['Nome']}\n- Força: {carta_2['Força']}\n- Inteligência: {carta_2['Inteligência']}\n- Influência: {carta_2['Influência']}\n")
-
-        return carta_1, carta_2, vencedor, resultado
-
-    elif carta_2['Trunfo'] is True:
-        print(Fore.RED + Style.BRIGHT + "PC ganhou!")
-        print("Carta Trunfo")
-        vencedor = "PC ganhou!"
-        pc += 2
-
-        print("\n=== CARTA DO PC ===")
-        print(f"- Nome: {carta_2['Nome']}\n- Força: {carta_2['Força']}\n- Inteligência: {carta_2['Inteligência']}\n- Influência: {carta_2['Influência']}\n")
-
-        return carta_1, carta_2, vencedor, resultado
-
-    if carta_1[resultado] > carta_2[resultado]:
-        print(Fore.RED + Style.BRIGHT + "\nJogador ganhou!")
-        vencedor = "Jogador ganhou!"
-        jogador += 2
-
-    elif carta_1[resultado] == carta_2[resultado]:
-        print(Fore.RED + Style.BRIGHT + "\nEmpate!")
-        print("\nNova Rodada")
-        vencedor = "Empate!"
-        return empate()
-
-    else:
-        print(Fore.RED + Style.BRIGHT + "\nPC ganhou!")
-        vencedor = "PC ganhou!"
-        pc += 2
-
-    print("\n=== CARTA DO PC ===")
-    print(f"- Nome: {carta_2['Nome']}\n- Força: {carta_2['Força']}\n- Inteligência: {carta_2['Inteligência']}\n- Influência: {carta_2['Influência']}\n")
-
-    return carta_1, carta_2, vencedor, resultado
+        rodadas.write(f"O jogo terminou no dia {final.strftime("%d/%m/%Y")} as {final.strftime('%H:%M:%S')} ")
 
 
 def main():
@@ -241,26 +157,25 @@ def main():
         if resultado is False:
             continue
 
-        global rodada
-
         carta_1, carta_2, vencedor, resultado = resultado
         historico(carta_1, carta_2, vencedor, resultado)
 
+        global rodada
         rodada += 1
 
         novamente = [
             {
                 "type": "list",
-                "name": "continuar",
-                "message": "Deseja jogar mais uma rodada? ",
+                "name": "atributo",
+                "message": "Querer jogar mais uma rodada? ",
                 "choices": ['Sim', 'Não']
             }
         ]
 
-        decisao = prompt(novamente)["continuar"]
+        decisao = prompt(novamente)["atributo"]
 
         if decisao == "Não":
-            print("Jogatina encerrada")
+            print("Jogatina encerada")
             final = datetime.now()
             resultado_final(final)
             break
@@ -268,3 +183,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

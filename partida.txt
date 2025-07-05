@@ -1,18 +1,18 @@
-O jogo começou no dia 05/07/2025 as 01:44:00 
+O jogo começou no dia 05/07/2025 as 13:35:52 
 
 === CARTA DO JOGADOR NA RODADA 1 ===
-Nome: Gandalf
-Força: 75
-Inteligência: 90
-Influência: 95
+Nome: Luffy
+Força: 85
+Inteligência: 60
+Influência: 85
 
 === CARTA DO PC NA RODADA 1 ===
-Nome: Saitama
-Força: 95
-Inteligência: 60
-Influência: 70
+Nome: Alucard
+Força: 80
+Inteligência: 80
+Influência: 80
 
-Atributo escolhido Influência
+Atributo escolhido Força
 
 RESULTADO DA RODADA 1
 Jogador ganhou!
@@ -20,66 +20,123 @@ Jogador ganhou!
 
 
 === CARTA DO JOGADOR NA RODADA 2 ===
-Nome: Jack Sparrow
-Força: 70
+Nome: Surfista Prateado
+Força: 75
 Inteligência: 70
-Influência: 85
+Influência: 60
 
 === CARTA DO PC NA RODADA 2 ===
-Nome: Doutor Estranho
-Força: 80
-Inteligência: 95
+Nome: Pikachu
+Força: 75
+Inteligência: 50
 Influência: 70
-
-Atributo escolhido Influência
-
-RESULTADO DA RODADA 2
-Jogador ganhou!
-
-
-
-=== CARTA DO JOGADOR NA RODADA 3 ===
-Nome: Thor
-Força: 90
-Inteligência: 60
-Influência: 65
-
-=== CARTA DO PC NA RODADA 3 ===
-Nome: Naruto Uzumaki
-Força: 90
-Inteligência: 70
-Influência: 90
 
 Atributo escolhido Força
 
-RESULTADO DA RODADA 3
+RESULTADO DA RODADA 2
 Empate!
 
 
 
+=== CARTA DO JOGADOR NA RODADA 3 ===
+Nome: Loki
+Força: 60
+Inteligência: 85
+Influência: 65
+
+=== CARTA DO PC NA RODADA 3 ===
+Nome: Flash
+Força: 65
+Inteligência: 65
+Influência: 70
+
+Atributo escolhido Força
+
+RESULTADO DA RODADA 3
+PC ganhou!
+
+
+
 === CARTA DO JOGADOR NA RODADA 4 ===
-Nome: Luffy
-Força: 85
-Inteligência: 60
-Influência: 85
+Nome: Loki
+Força: 60
+Inteligência: 85
+Influência: 65
 
 === CARTA DO PC NA RODADA 4 ===
-Nome: Jiraiya
-Força: 75
-Inteligência: 85
-Influência: 75
+Nome: Flash
+Força: 65
+Inteligência: 65
+Influência: 70
+
+Atributo escolhido Força
+
+RESULTADO DA RODADA 4
+PC ganhou!
+
+
+
+=== CARTA DO JOGADOR NA RODADA 5 ===
+Nome: Harry Potter
+Força: 70
+Inteligência: 70
+Influência: 80
+
+=== CARTA DO PC NA RODADA 5 ===
+Nome: Homelander
+Força: 90
+Inteligência: 45
+Influência: 60
 
 Atributo escolhido Influência
 
-RESULTADO DA RODADA 4
+RESULTADO DA RODADA 5
+Jogador ganhou!
+
+
+
+=== CARTA DO JOGADOR NA RODADA 6 ===
+Nome: Harry Potter
+Força: 70
+Inteligência: 70
+Influência: 80
+
+=== CARTA DO PC NA RODADA 6 ===
+Nome: Flash
+Força: 65
+Inteligência: 65
+Influência: 70
+
+Atributo escolhido Influência
+
+RESULTADO DA RODADA 6
+Jogador ganhou!
+
+
+
+=== CARTA DO JOGADOR NA RODADA 7 ===
+Nome: Vegeta
+Força: 90
+Inteligência: 70
+Influência: 70
+
+=== CARTA DO PC NA RODADA 7 ===
+Nome: Surfista Prateado
+Força: 75
+Inteligência: 70
+Influência: 60
+
+Atributo escolhido Força
+
+RESULTADO DA RODADA 7
 Jogador ganhou!
 
 
 
 Quantidade de rodadas ganham pelo:
-Jogador ganhou 3 
-PC ganhou 1 
+Jogador ganhou 4 
+PC ganhou 2 
 Jogador ganhou essa partida de Super Trunfo! 
 
 
-O jogo terminou no dia 05/07/2025 as 01:44:17 
+O jogo terminou no dia 05/07/2025 as 13:36:18 
