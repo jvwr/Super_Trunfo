@@ -1,373 +1,373 @@
 [
   {
-    "nome": "Darth Vader",
-    "forca": 75,
-    "inteligencia": 70,
-    "influencia": 90,
-    "trunfo": false
+    "Nome": "Darth Vader", 
+    "Força": 75, 
+    "Inteligência": 70, 
+    "Influência": 90, 
+    "Trunfo": false
   },
   {
-    "nome": "Thanos",
-    "forca": 85,
-    "inteligencia": 60,
-    "influencia": 70,
-    "trunfo": false
+    "Nome": "Thanos", 
+    "Força": 85, 
+    "Inteligência": 60, 
+    "Influência": 70, 
+    "Trunfo": false
   },
   {
-    "nome": "Coringa",
-    "forca": 50,
-    "inteligencia": 80,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Coringa", 
+    "Força": 50, 
+    "Inteligência": 80, 
+    "Influência": 80, 
+    "Trunfo": false
   },
   {
-    "nome": "Voldemort",
-    "forca": 80,
-    "inteligencia": 60,
-    "influencia": 40,
-    "trunfo": false
+    "Nome": "Voldemort", 
+    "Força": 75, 
+    "Inteligência": 60, 
+    "Influência": 45, 
+    "Trunfo": false
   },
   {
-    "nome": "Magneto",
-    "forca": 90,
-    "inteligencia": 70,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Magneto", 
+    "Força": 85, 
+    "Inteligência": 75, 
+    "Influência": 65, 
+    "Trunfo": false
   },
   {
-    "nome": "Loki",
-    "forca": 60,
-    "inteligencia": 80,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Loki", 
+    "Força": 60, 
+    "Inteligência": 85, 
+    "Influência": 65, 
+    "Trunfo": false
   },
   {
-    "nome": "Sauron",
-    "forca": 100,
-    "inteligencia": 60,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Sauron", 
+    "Força": 95, 
+    "Inteligência": 65, 
+    "Influência": 80, 
+    "Trunfo": false
   },
   {
-    "nome": "Homelander",
-    "forca": 90,
-    "inteligencia": 40,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Homelander", 
+    "Força": 90, 
+    "Inteligência": 45, 
+    "Influência": 60, 
+    "Trunfo": false
   },
   {
-    "nome": "Walter White",
-    "forca": 30,
-    "inteligencia": 90,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Walter White", 
+    "Força": 40, 
+    "Inteligência": 95, 
+    "Influência": 65, 
+    "Trunfo": false
   },
   {
-    "nome": "Batman",
-    "forca": 70,
-    "inteligencia": 70,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Batman", 
+    "Força": 70, 
+    "Inteligência": 85, 
+    "Influência": 85, 
+    "Trunfo": false
   },
   {
-    "nome": "Homem de Ferro",
-    "forca": 70,
-    "inteligencia": 90,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Homem de Ferro", 
+    "Força": 70, 
+    "Inteligência": 90, 
+    "Influência": 80, 
+    "Trunfo": false
   },
   {
-    "nome": "Capitao America",
-    "forca": 90,
-    "inteligencia": 70,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Capitao America", 
+    "Força": 85, 
+    "Inteligência": 70, 
+    "Influência": 80, 
+    "Trunfo": false
   },
   {
-    "nome": "Thor",
-    "forca": 90,
-    "inteligencia": 60,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Thor", 
+    "Força": 90, 
+    "Inteligência": 60, 
+    "Influência": 65, 
+    "Trunfo": false
   },
   {
-    "nome": "Hulk",
-    "forca": 90,
-    "inteligencia": 50,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Hulk", 
+    "Força": 90, 
+    "Inteligência": 50, 
+    "Influência": 60, 
+    "Trunfo": false
   },
   {
-    "nome": "Doutor Estranho",
-    "forca": 80,
-    "inteligencia": 90,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Doutor Estranho", 
+    "Força": 80, 
+    "Inteligência": 95, 
+    "Influência": 70, 
+    "Trunfo": false
   },
   {
-    "nome": "Homem-Aranha",
-    "forca": 70,
-    "inteligencia": 70,
-    "influencia": 70,
-    "trunfo": false
+    "Nome": "Homem-Aranha", 
+    "Força": 70, 
+    "Inteligência": 75, 
+    "Influência": 75, 
+    "Trunfo": false
   },
   {
-    "nome": "Flash",
-    "forca": 60,
-    "inteligencia": 60,
-    "influencia": 70,
-    "trunfo": false
+    "Nome": "Flash", 
+    "Força": 65, 
+    "Inteligência": 65, 
+    "Influência": 70, 
+    "Trunfo": false
   },
   {
-    "nome": "Deadpool",
-    "forca": 80,
-    "inteligencia": 50,
-    "influencia": 50,
-    "trunfo": false
+    "Nome": "Deadpool", 
+    "Força": 80, 
+    "Inteligência": 50, 
+    "Influência": 55, 
+    "Trunfo": false
   },
   {
-    "nome": "Luke Skywalker",
-    "forca": 80,
-    "inteligencia": 70,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Luke Skywalker", 
+    "Força": 80, 
+    "Inteligência": 70, 
+    "Influência": 80, 
+    "Trunfo": false
   },
   {
-    "nome": "Gandalf",
-    "forca": 70,
-    "inteligencia": 90,
-    "influencia": 90,
-    "trunfo": false
+    "Nome": "Gandalf", 
+    "Força": 75, 
+    "Inteligência": 90, 
+    "Influência": 95, 
+    "Trunfo": false
   },
   {
-    "nome": "Jon Snow",
-    "forca": 80,
-    "inteligencia": 70,
-    "influencia": 70,
-    "trunfo": false
+    "Nome": "Jon Snow", 
+    "Força": 80, 
+    "Inteligência": 70, 
+    "Influência": 70, 
+    "Trunfo": false
   },
   {
-    "nome": "Harry Potter",
-    "forca": 70,
-    "inteligencia": 70,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Harry Potter", 
+    "Força": 70, 
+    "Inteligência": 70, 
+    "Influência": 80, 
+    "Trunfo": false
   },
   {
-    "nome": "Dumbledore",
-    "forca": 80,
-    "inteligencia": 80,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Dumbledore", 
+    "Força": 70, 
+    "Inteligência": 90, 
+    "Influência": 90, 
+    "Trunfo": false
   },
   {
-    "nome": "Yoda",
-    "forca": 70,
-    "inteligencia": 90,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Yoda", 
+    "Força": 60, 
+    "Inteligência": 95, 
+    "Influência": 85, 
+    "Trunfo": false
   },
   {
-    "nome": "Ultron",
-    "forca": 80,
-    "inteligencia": 90,
-    "influencia": 50,
-    "trunfo": false
+    "Nome": "Ultron", 
+    "Força": 80, 
+    "Inteligência": 90, 
+    "Influência": 50, 
+    "Trunfo": false
   },
   {
-    "nome": "Wolverine",
-    "forca": 80,
-    "inteligencia": 60,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Wolverine", 
+    "Força": 80, 
+    "Inteligência": 60, 
+    "Influência": 60, 
+    "Trunfo": false
   },
   {
-    "nome": "Rei Arthur",
-    "forca": 80,
-    "inteligencia": 70,
-    "influencia": 90,
-    "trunfo": false
+    "Nome": "Rei Arthur", 
+    "Força": 80, 
+    "Inteligência": 70, 
+    "Influência": 90, 
+    "Trunfo": false
   },
   {
-    "nome": "Merlin",
-    "forca": 70,
-    "inteligencia": 90,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Merlin", 
+    "Força": 70, 
+    "Inteligência": 90, 
+    "Influência": 60, 
+    "Trunfo": false
   },
   {
-    "nome": "Chucky",
-    "forca": 60,
-    "inteligencia": 80,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Chucky", 
+    "Força": 60, 
+    "Inteligência": 80, 
+    "Influência": 60, 
+    "Trunfo": false
   },
   {
-    "nome": "Hellboy",
-    "forca": 90,
-    "inteligencia": 60,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Hellboy", 
+    "Força": 90, 
+    "Inteligência": 60, 
+    "Influência": 60, 
+    "Trunfo": false
   },
   {
-    "nome": "Alucard",
-    "forca": 80,
-    "inteligencia": 80,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Alucard", 
+    "Força": 80, 
+    "Inteligência": 80, 
+    "Influência": 80, 
+    "Trunfo": false
   },
   {
-    "nome": "Dracula",
-    "forca": 80,
-    "inteligencia": 80,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Dracula", 
+    "Força": 80, 
+    "Inteligência": 80, 
+    "Influência": 80, 
+    "Trunfo": false
   },
   {
-    "nome": "Goku",
-    "forca": 100,
-    "inteligencia": 60,
-    "influencia": 70,
-    "trunfo": false
+    "Nome": "Goku", 
+    "Força": 90, 
+    "Inteligência": 65, 
+    "Influência": 75, 
+    "Trunfo": false
   },
   {
-    "nome": "Vegeta",
-    "forca": 100,
-    "inteligencia": 70,
-    "influencia": 70,
-    "trunfo": false
+    "Nome": "Vegeta", 
+    "Força": 90, 
+    "Inteligência": 70, 
+    "Influência": 70, 
+    "Trunfo": false
   },
   {
-    "nome": "Frieza",
-    "forca": 90,
-    "inteligencia": 80,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Frieza", 
+    "Força": 85, 
+    "Inteligência": 80, 
+    "Influência": 60, 
+    "Trunfo": false
   },
   {
-    "nome": "Pikachu",
-    "forca": 80,
-    "inteligencia": 50,
-    "influencia": 70,
-    "trunfo": false
+    "Nome": "Pikachu", 
+    "Força": 75, 
+    "Inteligência": 50, 
+    "Influência": 70, 
+    "Trunfo": false
   },
   {
-    "nome": "Jack Sparrow",
-    "forca": 70,
-    "inteligencia": 70,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Jack Sparrow", 
+    "Força": 70, 
+    "Inteligência": 70, 
+    "Influência": 85, 
+    "Trunfo": false
   },
   {
-    "nome": "Rocket Raccoon",
-    "forca": 50,
-    "inteligencia": 70,
-    "influencia": 50,
-    "trunfo": false
+    "Nome": "Rocket Raccoon", 
+    "Força": 50, 
+    "Inteligência": 75, 
+    "Influência": 55, 
+    "Trunfo": false
   },
   {
-    "nome": "Cavaleiro da Lua",
-    "forca": 70,
-    "inteligencia": 60,
-    "influencia": 50,
-    "trunfo": false
+    "Nome": "Cavaleiro da Lua", 
+    "Força": 70, 
+    "Inteligência": 60, 
+    "Influência": 55, 
+    "Trunfo": false
   },
   {
-    "nome": "Surfista Prateado",
-    "forca": 70,
-    "inteligencia": 70,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Surfista Prateado", 
+    "Força": 75, 
+    "Inteligência": 70, 
+    "Influência": 60, 
+    "Trunfo": false
   },
   {
-    "nome": "Robin",
-    "forca": 70,
-    "inteligencia": 70,
-    "influencia": 50,
-    "trunfo": false
+    "Nome": "Robin", 
+    "Força": 70, 
+    "Inteligência": 75, 
+    "Influência": 55, 
+    "Trunfo": false
   },
   {
-    "nome": "Lex Luthor",
-    "forca": 70,
-    "inteligencia": 90,
-    "influencia": 60,
-    "trunfo": false
+    "Nome": "Lex Luthor", 
+    "Força": 50, 
+    "Inteligência": 95, 
+    "Influência": 65, 
+    "Trunfo": false
   },
   {
-    "nome": "Eren Jaeger",
-    "forca": 80,
-    "inteligencia": 80,
-    "influencia": 100,
-    "trunfo": false
+    "Nome": "Eren Jaeger", 
+    "Força": 85, 
+    "Inteligência": 80, 
+    "Influência": 95, 
+    "Trunfo": false
   },
   {
-    "nome": "Levi Ackerman",
-    "forca": 100,
-    "inteligencia": 80,
-    "influencia": 90,
-    "trunfo": false
+    "Nome": "Levi Ackerman", 
+    "Força": 85, 
+    "Inteligência": 80, 
+    "Influência": 90, 
+    "Trunfo": false
   },
   {
-    "nome": "Goku Black",
-    "forca": 80,
-    "inteligencia": 70,
-    "influencia": 50,
-    "trunfo": false
+    "Nome": "Goku Black", 
+    "Força": 85, 
+    "Inteligência": 70, 
+    "Influência": 60, 
+    "Trunfo": false
   },
   {
-    "nome": "Meliodas",
-    "forca": 100,
-    "inteligencia": 70,
-    "influencia": 90,
-    "trunfo": false
+    "Nome": "Meliodas", 
+    "Força": 90, 
+    "Inteligência": 70, 
+    "Influência": 90, 
+    "Trunfo": false
   },
   {
-    "nome": "Naruto Uzumaki",
-    "forca": 90,
-    "inteligencia": 70,
-    "influencia": 90,
-    "trunfo": false
+    "Nome": "Naruto Uzumaki", 
+    "Força": 90, 
+    "Inteligência": 70, 
+    "Influência": 90, 
+    "Trunfo": false
   },
   {
-    "nome": "Sasuke Uchiha",
-    "forca": 90,
-    "inteligencia": 80,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Sasuke Uchiha", 
+    "Força": 90, 
+    "Inteligência": 80, 
+    "Influência": 80, 
+    "Trunfo": false
   },
   {
-    "nome": "Kakashi Hatake",
-    "forca": 70,
-    "inteligencia": 80,
-    "influencia": 85,
-    "trunfo": false
+    "Nome": "Kakashi Hatake", 
+    "Força": 70, 
+    "Inteligência": 85, 
+    "Influência": 85, 
+    "Trunfo": false
   },
   {
-    "nome": "Jiraiya",
-    "forca": 75,
-    "inteligencia": 85,
-    "influencia": 75,
-    "trunfo": false
+    "Nome": "Jiraiya", 
+    "Força": 75, 
+    "Inteligência": 85, 
+    "Influência": 75, 
+    "Trunfo": false
   },
   {
-    "nome": "Luffy",
-    "forca": 90,
-    "inteligencia": 60,
-    "influencia": 80,
-    "trunfo": false
+    "Nome": "Luffy", 
+    "Força": 85, 
+    "Inteligência": 60, 
+    "Influência": 85, 
+    "Trunfo": false
   },
   {
-    "nome": "Zoro",
-    "forca": 85,
-    "inteligencia": 65,
-    "influencia": 70,
-    "trunfo": false
+    "Nome": "Zoro", 
+    "Força": 85, 
+    "Inteligência": 65, 
+    "Influência": 75, 
+    "Trunfo": false
   },
   {
-    "nome": "Saitama",
-    "forca": 100,
-    "inteligencia": 60,
-    "influencia": 70,
-    "trunfo": true
+    "Nome": "Saitama", 
+    "Força": 95, 
+    "Inteligência": 60, 
+    "Influência": 70, 
+    "Trunfo": true
   }
 ]
