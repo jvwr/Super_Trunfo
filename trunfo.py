@@ -12,12 +12,12 @@ jogador = 0
 
 pc = 0
 
-with open(r"C:\Users\João Vitor\Desktop\Python\Super_Trunfo\partida.txt", "w", encoding="utf-8") as file:
+baralho = "baralho.json"
+partida = "partida.txt"
+
+with open(partida, "w", encoding="utf-8") as file:
     pass
 
-baralho = r"C:\Users\João Vitor\Desktop\Python\Super_Trunfo\baralho.json"
-
-partida = r"C:\Users\João Vitor\Desktop\Python\Super_Trunfo\partida.txt"
 
 print("Seja bem-vindo ao Super Trunfo!")
 print("Pegue sua carta, escolha com sabedoria... ou só confie no seu bom azar mesmo.\n")
